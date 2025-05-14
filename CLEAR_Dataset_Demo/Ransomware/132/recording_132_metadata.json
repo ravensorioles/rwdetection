@@ -1,0 +1,14 @@
+{
+    "Type": "RW",
+    "Virus Family": "BlackMatter_22d7",
+    "SHA-256": "22d7d67c3af10b1a37f277ebabe2d1eb4fd25afbd6437d4377400e148bcc08d6",
+    "Benign Tasks": "Cmake_from_source",
+    "Duration": 1003,
+    "No. of Commands": 1850315,
+    "Read Traffic": 35,
+    "Write Traffic": 47,
+    "Disk Size": "100GB",
+    "Victim Data": "Set 1",
+    "Source": "In-house",
+    "OS": "Windows"
+}

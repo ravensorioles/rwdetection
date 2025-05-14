@@ -1,0 +1,14 @@
+{
+    "Type": "RW",
+    "Virus Family": "Sodinokibi_9437",
+    "SHA-256": "94379bb2c305a5754d60ae3d27daf5f7f4758ed3dad21ee1969640fd9e84e83f",
+    "Benign Tasks": "Cmake_from_source, Disk indexing",
+    "Duration": 1003,
+    "No. of Commands": 769766,
+    "Read Traffic": 25,
+    "Write Traffic": 32,
+    "Disk Size": "100GB",
+    "Victim Data": "Set 2",
+    "Source": "In-house",
+    "OS": "Windows"
+}

@@ -1,0 +1,59 @@
+demo_mode: True
+
+operational_execution_mode: 'Regular'  #  Possible modes: 'Regular', 'Robustness'
+robustness_fold: 1  # Possible folds: 1, 2 or 3
+robustness_test_mode: 'id'  # Possible modes: 'id' (in-distribution) / 'ood' (out-of-distribution)
+
+model_name: 'CommandLevelLSTM'  # Possible models: CLT, PLT, RF, DeftPunk, CommandLevelLSTM, CommandLevelLSTMContinuous, UNet
+trained_model_path: ''  # When a path is supplied - only inference is done. If empty, the experiment also trains. NOTE: The trained model should match the model_name parameter!
+
+CLT:
+  num_tokens: 500
+  token_dim: 1024
+  embedding_dim: 128
+  hidden_dim: 128
+  nheads: 4
+  n_layers: 3
+  dropout: 0.1
+  n_bytes: 2
+
+PLT:
+  raw_feature_dim: 181
+  embedding_dim: 512
+  hidden_size: 2048
+  nheads: 4
+  n_layers: 6
+  max_len: 100
+  dropout: 0.1
+
+RF:
+  num_trees: 20
+  max_depth: 20
+
+DeftPunk:
+  with_xgboost: True
+  dt_max_depth: 6
+
+CommandLevelLSTM:
+  num_tokens: 500
+  token_dim: 1024
+  embedding_dim: 128
+  hidden_dim: 128
+  n_layers: 3
+  dropout: 0.1
+  n_bytes: 2
+
+CommandLevelLSTMContinuous:
+  num_tokens: 500
+  token_dim: 1024
+  embedding_dim: 128
+  hidden_dim: 128
+  n_layers: 3
+  dropout: 0.1
+  n_bytes: 2
+
+UNet:
+  num_tokens: 100
+  d_model: 181
+  depth: 3
+  kernel_size: 5

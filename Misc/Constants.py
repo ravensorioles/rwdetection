@@ -1,0 +1,3 @@
+NVMeOpCodeWRITE = 1
+NVMeOpCodeREAD = 2
+NLB_to_MB = 512*1e-6

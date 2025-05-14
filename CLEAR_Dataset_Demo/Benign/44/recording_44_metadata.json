@@ -1,0 +1,14 @@
+{
+    "Type": "Benign",
+    "Virus Family": "",
+    "SHA-256": "",
+    "Benign Tasks": "Encrypt_using_aescrypt",
+    "Duration": 1003,
+    "No. of Commands": 4245024,
+    "Read Traffic": 40,
+    "Write Traffic": 46,
+    "Disk Size": "512GB",
+    "Victim Data": "Set 3",
+    "Source": "In-house",
+    "OS": "Windows"
+}

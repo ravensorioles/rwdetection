@@ -1,0 +1,14 @@
+{
+    "Type": "RW",
+    "Virus Family": "LockBit_7340",
+    "SHA-256": "73406e0e7882addf0f810d3bc0e386fd5fd2dd441c895095f4125bb236ae7345",
+    "Benign Tasks": "Encrypt_using_aescrypt",
+    "Duration": 1004,
+    "No. of Commands": 2096510,
+    "Read Traffic": 29,
+    "Write Traffic": 35,
+    "Disk Size": "100GB",
+    "Victim Data": "Set 1",
+    "Source": "In-house",
+    "OS": "Windows"
+}

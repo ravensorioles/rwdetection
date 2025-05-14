@@ -1,0 +1,14 @@
+{
+    "Type": "Benign",
+    "Virus Family": "",
+    "SHA-256": "",
+    "Benign Tasks": "Anaconda_package",
+    "Duration": 1002,
+    "No. of Commands": 2697257,
+    "Read Traffic": 42,
+    "Write Traffic": 47,
+    "Disk Size": "512GB",
+    "Victim Data": "Set 3",
+    "Source": "In-house",
+    "OS": "Windows"
+}

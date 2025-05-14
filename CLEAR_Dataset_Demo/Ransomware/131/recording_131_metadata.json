@@ -1,0 +1,14 @@
+{
+    "Type": "RW",
+    "Virus Family": "LockBit_4bb1",
+    "SHA-256": "4bb152c96ba9e25f293bbc03c607918a4452231087053a8cb1a8accb1acc92fd",
+    "Benign Tasks": "Compress_rar_using_winrar, Disk indexing",
+    "Duration": 1004,
+    "No. of Commands": 1110671,
+    "Read Traffic": 3,
+    "Write Traffic": 12,
+    "Disk Size": "100GB",
+    "Victim Data": "Set 2",
+    "Source": "In-house",
+    "OS": "Windows"
+}

@@ -1,0 +1,14 @@
+{
+    "Type": "Benign",
+    "Virus Family": "",
+    "SHA-256": "",
+    "Benign Tasks": "Cmake_from_source",
+    "Duration": 1003,
+    "No. of Commands": 4088611,
+    "Read Traffic": 42,
+    "Write Traffic": 63,
+    "Disk Size": "512GB",
+    "Victim Data": "Set 3",
+    "Source": "In-house",
+    "OS": "Windows"
+}

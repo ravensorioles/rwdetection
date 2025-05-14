@@ -1,0 +1,14 @@
+{
+    "Type": "RW",
+    "Virus Family": "MedusaLocker_f5fb",
+    "SHA-256": "f5fb7fa5231c18f0951c755c4cb0ec07b0889b5e320f42213cbf6bbbe499ad31",
+    "Benign Tasks": "User_files_wipe",
+    "Duration": 1004,
+    "No. of Commands": 3584224,
+    "Read Traffic": 96,
+    "Write Traffic": 157,
+    "Disk Size": "512GB",
+    "Victim Data": "Set 5",
+    "Source": "In-house",
+    "OS": "Windows"
+}

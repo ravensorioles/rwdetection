@@ -1,0 +1,14 @@
+{
+    "Type": "Benign",
+    "Virus Family": "",
+    "SHA-256": "",
+    "Benign Tasks": "Compress_rar_using_winrar, Disk indexing",
+    "Duration": 1003,
+    "No. of Commands": 617869,
+    "Read Traffic": 26,
+    "Write Traffic": 26,
+    "Disk Size": "100GB",
+    "Victim Data": "Set 2",
+    "Source": "In-house",
+    "OS": "Windows"
+}
