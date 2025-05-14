@@ -15,11 +15,11 @@ To run the code, follow these steps:
 
 To start the application, one must do the following:
 1. Configure `config.yaml` accordingly. Specifically:
-1a. Set `demo_mode` to `True` to run a simplified version of the code. Setting it to `False` performs a full execution, with the parameters described below. The entire dataset should be downloaded to the `/CLEAR_Dataset` folder.
-1b. Set `operational_execution_mode` to `Regular` for the regular-split experiment and `Robustness` for different robustness experiments.
-1c. On `Robustness` mode, set `robustness_fold` to be either 1, 2, or 3 and `robustness_test_mode` to either `id` for an in-distribution test or `od` for an out-of-distribution test.
-1d. Set the `model_name` parameter to choose the desired model. The supported models are CLT (Command-Level Transformer), PLT (Patch-Level Transformer), RF (Random Forest), DeftPunk (XGBoost-based pipeline), CommandLevelLSTM, CommandLevelLSTMContinuous, and UNet.
-1e. Verify the chosen model's architecture parameters.
+  1a. Set `demo_mode` to `True` to run a simplified version of the code. Setting it to `False` performs a full execution, with the parameters described below. The entire dataset should be downloaded to the `/CLEAR_Dataset` folder.
+  1b. Set `operational_execution_mode` to `Regular` for the regular-split experiment and `Robustness` for different robustness experiments.
+  1c. On `Robustness` mode, set `robustness_fold` to be either 1, 2, or 3 and `robustness_test_mode` to either `id` for an in-distribution test or `od` for an out-of-distribution test.
+  1d. Set the `model_name` parameter to choose the desired model. The supported models are CLT (Command-Level Transformer), PLT (Patch-Level Transformer), RF (Random Forest), DeftPunk (XGBoost-based pipeline), CommandLevelLSTM, CommandLevelLSTMContinuous, and UNet.
+  1e. Verify the chosen model's architecture parameters.
 2. Navigate to the project directory and run `python main.py`
 
 The code returns a pandas DataFrame of results: miss detection rate (MDR), area under the ROC curve (AUC), and Megabytes to detect (MBD) - mean and standard deviation.
